@@ -40,3 +40,10 @@ Prisma + Turso 사용하기 : https://docs.turso.tech/sdk/ts/orm/prisma
 ```
 
 ### [파일 관리 서비스 : Cloudflare R2](https://www.cloudflare.com/ko-kr/developer-platform/r2/)
+
+### [호스팅 서비스 : Cloudflare Pages](https://pages.cloudflare.com/)
+
+```
+# 시작하기
+wrangler whoami
+```
