@@ -15,3 +15,28 @@ nextjs 기반의 CMS 프로젝트
 ```
 pnpx auth secret
 ```
+
+### [Database : Turso](https://docs.turso.tech/introduction)
+
+Turso cli 설치하기
+
+```
+# macOS
+brew install tursodatabase/tap/turso
+
+# Linux
+curl -sSfL https://get.tur.so/install.sh | bash
+
+# Windows ( WSL 설치가 필수입니다. )
+wsl
+
+curl -sSfL https://get.tur.so/install.sh | bash
+```
+
+### [Prisma](https://www.prisma.io/)
+
+```
+Prisma + Turso 사용하기 : https://docs.turso.tech/sdk/ts/orm/prisma
+```
+
+### [파일 관리 서비스 : Cloudflare R2](https://www.cloudflare.com/ko-kr/developer-platform/r2/)

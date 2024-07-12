@@ -58,6 +58,11 @@
     "body": ["'use server'"],
     "description": "use server"
   },
+  "Runtime Edge": {
+    "prefix": "runtime-edge",
+    "body": ["export const runtime = \"edge\""],
+    "description": "runtime edge"
+  },
 
   "Use Metadata": {
     "prefix": "next-meta",

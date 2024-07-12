@@ -14,7 +14,7 @@ const config = {
     },
     extend: {
       screens: { xs: '475px' },
-      typography: (theme: any) => {
+      typography: () => {
         return {
           DEFAULT: {
             css: {
