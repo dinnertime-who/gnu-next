@@ -1,0 +1,91 @@
+{
+  "Next Layout": {
+    "prefix": "next-layout",
+    "body": [
+      "",
+      "export default async function Layout({",
+      "  children,",
+      "}: Readonly<{",
+      "  children: React.ReactNode;",
+      "}>) {",
+      "  return <>{children}</>",
+      "};",
+      ""
+    ],
+    "description": "Next Layout"
+  },
+  "Next Page": {
+    "prefix": "next-page",
+    "body": [
+      "",
+      "type PageProps = {",
+      "  params: { [key: string]: string | undefined };",
+      "  searchParams: { [key: string]: string | string[] | undefined };",
+      "};",
+      "",
+      "export default async function Page({ params, searchParams }: Readonly<PageProps>) {",
+      "  return (",
+      "    <section>",
+      "      $2",
+      "    </section>",
+      "  )",
+      "};",
+      "",
+      ""
+    ],
+    "description": "Next Page"
+  },
+
+  "Next Component": {
+    "prefix": "next-component",
+    "body": [
+      "type Props = React.HTMLAttributes<HTMLElement>",
+      "",
+      "export const ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}} = ({ className }: Readonly<Props>) => {",
+      "  return <${2:div}>$4</$2>",
+      "};"
+    ],
+    "description": "Next Component"
+  },
+  "Use Client": {
+    "prefix": "use-client",
+    "body": ["'use client'"],
+    "description": "use client"
+  },
+
+  "Use Server": {
+    "prefix": "use-server",
+    "body": ["'use server'"],
+    "description": "use server"
+  },
+
+  "Use Metadata": {
+    "prefix": "next-meta",
+    "body": ["export const metadata: Metadata = {$1}"],
+    "description": "Define Next Metadata"
+  },
+
+  "Use Dynamic Metadata": {
+    "prefix": "next-d-meta",
+    "body": [
+      "export async function generateMetadata(",
+      "  { params, searchParams }: Readonly<PageProps>,",
+      "  parent: ResolvingMetadata,",
+      "): Promise<Metadata> {",
+      "  return $1",
+      "}"
+    ],
+    "description": "Define Dynamic Next Metadata"
+  },
+
+  "console.log": {
+    "prefix": "cl",
+    "body": ["console.log($1)"],
+    "description": "console.log"
+  },
+  "console.table": {
+    "prefix": "ct",
+    "body": ["console.table($1)"],
+    "description": "console.table"
+  }
+}
