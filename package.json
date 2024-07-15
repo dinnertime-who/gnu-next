@@ -18,7 +18,7 @@
   "dependencies": {
     "@auth/core": "^0.31.0",
     "@auth/prisma-adapter": "^2.4.1",
-    "@dinnertime/react-state": "^0.0.3",
+    "@dinnertime/react-state": "^0.0.5",
     "@hookform/resolvers": "^3.9.0",
     "@prisma/client": "^5.16.2",
     "@radix-ui/react-accordion": "^1.2.0",

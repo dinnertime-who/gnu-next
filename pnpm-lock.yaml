@@ -15,8 +15,8 @@ importers:
         specifier: ^2.4.1
         version: 2.4.1(@prisma/client@5.16.2(prisma@5.16.2))
       '@dinnertime/react-state':
-        specifier: ^0.0.3
-        version: 0.0.3(react@18.3.1)
+        specifier: ^0.0.5
+        version: 0.0.5(react@18.3.1)
       '@hookform/resolvers':
         specifier: ^3.9.0
         version: 3.9.0(react-hook-form@7.52.1(react@18.3.1))
@@ -310,8 +310,8 @@ packages:
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
     engines: {node: '>=12'}
 
-  '@dinnertime/react-state@0.0.3':
-    resolution: {integrity: sha512-vlwuZ7WT49b1e8xBFictY76io7wx2YiSqHID6CC/stRslBnTMxKeT9ZWZIP+dJfnAl+6WRZIp/wvWEs9j35+5A==}
+  '@dinnertime/react-state@0.0.5':
+    resolution: {integrity: sha512-ThF3yMMtNJLFw0n0v87nGn1WEirqSi0hYOeH8qGnzI3UjU9b9XGlqh2C2XpyMxVCCOYUeZwunmKlPyovhvq5/Q==}
     peerDependencies:
       react: ^18
 
@@ -4227,7 +4227,7 @@ snapshots:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
 
-  '@dinnertime/react-state@0.0.3(react@18.3.1)':
+  '@dinnertime/react-state@0.0.5(react@18.3.1)':
     dependencies:
       '@tanstack/react-query': 5.51.1(react@18.3.1)
       react: 18.3.1
